@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2442A510B0AB3FE6228010F5 /* Pods_Bhagvad_GIta_Api.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F451B7FE1F25FDD0FC11B33 /* Pods_Bhagvad_GIta_Api.framework */; };
+		497F51552AD0485A000FD2CE /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F51542AD0485A000FD2CE /* LoginPage.swift */; };
+		497F51572AD04A1F000FD2CE /* createAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F51562AD04A1F000FD2CE /* createAccount.swift */; };
+		497F51592AD04E3A000FD2CE /* emailPasswordPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F51582AD04E3A000FD2CE /* emailPasswordPage.swift */; };
+		497F515B2AD050F3000FD2CE /* dataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F515A2AD050F3000FD2CE /* dataTableViewCell.swift */; };
+		497F515D2AD05A08000FD2CE /* chapterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F515C2AD05A08000FD2CE /* chapterPage.swift */; };
+		C68BE9CD2AD0020900118AE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68BE9CC2AD0020900118AE5 /* AppDelegate.swift */; };
+		C68BE9CF2AD0020900118AE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68BE9CE2AD0020900118AE5 /* SceneDelegate.swift */; };
+		C68BE9D12AD0020900118AE5 /* geeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68BE9D02AD0020900118AE5 /* geeta.swift */; };
+		C68BE9D42AD0020900118AE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68BE9D22AD0020900118AE5 /* Main.storyboard */; };
+		C68BE9D62AD0020900118AE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68BE9D52AD0020900118AE5 /* Assets.xcassets */; };
+		C68BE9D92AD0020900118AE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68BE9D72AD0020900118AE5 /* LaunchScreen.storyboard */; };
+		C6A2AC172AD1165200EF7AC2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6A2AC162AD1165200EF7AC2 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F451B7FE1F25FDD0FC11B33 /* Pods_Bhagvad_GIta_Api.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bhagvad_GIta_Api.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		497F51542AD0485A000FD2CE /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		497F51562AD04A1F000FD2CE /* createAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createAccount.swift; sourceTree = "<group>"; };
+		497F51582AD04E3A000FD2CE /* emailPasswordPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emailPasswordPage.swift; sourceTree = "<group>"; };
+		497F515A2AD050F3000FD2CE /* dataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataTableViewCell.swift; sourceTree = "<group>"; };
+		497F515C2AD05A08000FD2CE /* chapterPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chapterPage.swift; sourceTree = "<group>"; };
+		C68BE9C92AD0020900118AE5 /* Bhagvad GIta Api.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bhagvad GIta Api.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68BE9CC2AD0020900118AE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C68BE9CE2AD0020900118AE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C68BE9D02AD0020900118AE5 /* geeta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geeta.swift; sourceTree = "<group>"; };
+		C68BE9D32AD0020900118AE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C68BE9D52AD0020900118AE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C68BE9D82AD0020900118AE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C68BE9DA2AD0020900118AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6A2AC162AD1165200EF7AC2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C68BE9C62AD0020900118AE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2442A510B0AB3FE6228010F5 /* Pods_Bhagvad_GIta_Api.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D0224A253A0B56B24D26A45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F451B7FE1F25FDD0FC11B33 /* Pods_Bhagvad_GIta_Api.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		497154542AD1085F00A3FDA8 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				497F515C2AD05A08000FD2CE /* chapterPage.swift */,
+				C68BE9D02AD0020900118AE5 /* geeta.swift */,
+				497F51582AD04E3A000FD2CE /* emailPasswordPage.swift */,
+				497F51562AD04A1F000FD2CE /* createAccount.swift */,
+				497F51542AD0485A000FD2CE /* LoginPage.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		497154552AD1086D00A3FDA8 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				497F515A2AD050F3000FD2CE /* dataTableViewCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		497154562AD1087A00A3FDA8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C68BE9CC2AD0020900118AE5 /* AppDelegate.swift */,
+				C68BE9CE2AD0020900118AE5 /* SceneDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C68BE9C02AD0020900118AE5 = {
+			isa = PBXGroup;
+			children = (
+				C68BE9CB2AD0020900118AE5 /* Bhagvad GIta Api */,
+				C68BE9CA2AD0020900118AE5 /* Products */,
+				2D0224A253A0B56B24D26A45 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C68BE9CA2AD0020900118AE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C68BE9C92AD0020900118AE5 /* Bhagvad GIta Api.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C68BE9CB2AD0020900118AE5 /* Bhagvad GIta Api */ = {
+			isa = PBXGroup;
+			children = (
+				497154562AD1087A00A3FDA8 /* Common */,
+				497154552AD1086D00A3FDA8 /* cell */,
+				497154542AD1085F00A3FDA8 /* viewControllers */,
+				C68BE9D22AD0020900118AE5 /* Main.storyboard */,
+				C68BE9D52AD0020900118AE5 /* Assets.xcassets */,
+				C68BE9D72AD0020900118AE5 /* LaunchScreen.storyboard */,
+				C6A2AC162AD1165200EF7AC2 /* GoogleService-Info.plist */,
+				C68BE9DA2AD0020900118AE5 /* Info.plist */,
+			);
+			path = "Bhagvad GIta Api";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C68BE9C82AD0020900118AE5 /* Bhagvad GIta Api */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C68BE9DD2AD0020900118AE5 /* Build configuration list for PBXNativeTarget "Bhagvad GIta Api" */;
+			buildPhases = (
+				A42945E7542F9B0B9E3656C0 /* [CP] Check Pods Manifest.lock */,
+				C68BE9C52AD0020900118AE5 /* Sources */,
+				C68BE9C62AD0020900118AE5 /* Frameworks */,
+				C68BE9C72AD0020900118AE5 /* Resources */,
+				7A017CF729F7251E4378EF1C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bhagvad GIta Api";
+			productName = "Bhagvad GIta Api";
+			productReference = C68BE9C92AD0020900118AE5 /* Bhagvad GIta Api.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C68BE9C12AD0020900118AE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C68BE9C82AD0020900118AE5 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C68BE9C42AD0020900118AE5 /* Build configuration list for PBXProject "Bhagvad GIta Api" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C68BE9C02AD0020900118AE5;
+			productRefGroup = C68BE9CA2AD0020900118AE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C68BE9C82AD0020900118AE5 /* Bhagvad GIta Api */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C68BE9C72AD0020900118AE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68BE9D92AD0020900118AE5 /* LaunchScreen.storyboard in Resources */,
+				C68BE9D62AD0020900118AE5 /* Assets.xcassets in Resources */,
+				C68BE9D42AD0020900118AE5 /* Main.storyboard in Resources */,
+				C6A2AC172AD1165200EF7AC2 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A017CF729F7251E4378EF1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bhagvad GIta Api/Pods-Bhagvad GIta Api-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bhagvad GIta Api/Pods-Bhagvad GIta Api-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bhagvad GIta Api/Pods-Bhagvad GIta Api-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A42945E7542F9B0B9E3656C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bhagvad GIta Api-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C68BE9C52AD0020900118AE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497F515D2AD05A08000FD2CE /* chapterPage.swift in Sources */,
+				497F51552AD0485A000FD2CE /* LoginPage.swift in Sources */,
+				497F515B2AD050F3000FD2CE /* dataTableViewCell.swift in Sources */,
+				C68BE9D12AD0020900118AE5 /* geeta.swift in Sources */,
+				497F51572AD04A1F000FD2CE /* createAccount.swift in Sources */,
+				C68BE9CD2AD0020900118AE5 /* AppDelegate.swift in Sources */,
+				497F51592AD04E3A000FD2CE /* emailPasswordPage.swift in Sources */,
+				C68BE9CF2AD0020900118AE5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C68BE9D22AD0020900118AE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C68BE9D32AD0020900118AE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C68BE9D72AD0020900118AE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C68BE9D82AD0020900118AE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C68BE9DB2AD0020900118AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C68BE9DC2AD0020900118AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C68BE9DE2AD0020900118AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bhagvad GIta Api/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jenis.Bhagvad-GIta-Api";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C68BE9DF2AD0020900118AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bhagvad GIta Api/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jenis.Bhagvad-GIta-Api";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C68BE9C42AD0020900118AE5 /* Build configuration list for PBXProject "Bhagvad GIta Api" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68BE9DB2AD0020900118AE5 /* Debug */,
+				C68BE9DC2AD0020900118AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C68BE9DD2AD0020900118AE5 /* Build configuration list for PBXNativeTarget "Bhagvad GIta Api" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C68BE9DE2AD0020900118AE5 /* Debug */,
+				C68BE9DF2AD0020900118AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C68BE9C12AD0020900118AE5 /* Project object */;
+}
